@@ -199,24 +199,6 @@ exports.listen = function listen (client)
       }
    );
 
-   // -----------------------------------------------------------
-   //  Message edit, Will be fully implemented in future release
-   // -----------------------------------------------------------
-
-    //Client.on("messageUpdate", (oldMessage, newMessage) =>
-    //{
-      //MessageHandler(config, oldMessage, newMessage);
-    //});
-
-   // ---------------
-   // Message delete
-   // ---------------
-
-    //Client.on("messageDelete", (message) =>
-    //{
-      //MessageHandler(config, message, null, true);
-    //});
-
    // -----------
    // Raw events
    // -----------
