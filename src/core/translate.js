@@ -32,7 +32,8 @@ function discordPatch (string)
    const regexFix = string.replace(/<.*?>/gmiu, "<>").
       replace(urlRegex, "{}").
       replace(/@everyone/g, "[]").
-      replace(/@here/g, "[]");
+      replace(/@here/g, "[]").
+      replace(/@/g, "");
    if (!urlMatch)
    {
 
