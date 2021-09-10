@@ -113,7 +113,7 @@ function translateFix (string, matches)
    for (const obj of matches.memberPing)
    {
 
-      text = text.replace(/\[\s*?\]/i, "");
+      text = text.replace(/\[\s*?\]/i, obj);
 
    }
    return text;
