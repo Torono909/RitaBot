@@ -29,11 +29,10 @@ function discordPatch (string)
    let everyonePing = string.match(/@everyone|@here/giu);
    let urlMatch = string.match(urlRegex);
 
-   const regexFix = string.replace(/<.*?>/gmiu, "<>").
+   const regexFix = string.replace(/<.*?>/gmiu, "").
       replace(urlRegex, "{}").
       replace(/@everyone/g, "[]").
-      replace(/@here/g, "[]").
-      replace(/<@/g, "");
+      replace(/@here/g, "[]");
    if (!urlMatch)
    {
 
