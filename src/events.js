@@ -94,7 +94,7 @@ exports.listen = function listen (client)
          client.user.setPresence({
             "activity": {
                "name": "translating all things",
-               "type": "LISTENING"
+               "type": "PLAYING"
             },
             "status": "online"
          });
