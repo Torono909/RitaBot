@@ -207,6 +207,7 @@ function embedOn (data)
    // -----------------------------------------------
    // Resend embeds from original message
    // Only if content is forwared to another channel
+   // you fixed it !
    // -----------------------------------------------
 
    function sendEmbeds (data)
