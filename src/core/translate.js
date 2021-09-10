@@ -33,7 +33,7 @@ function discordPatch (string)
       replace(urlRegex, "{}").
       replace(/@everyone/g, "[]").
       replace(/@here/g, "[]").
-      replace(/@/g, "");
+      replace(/<@/g, "");
    if (!urlMatch)
    {
 
